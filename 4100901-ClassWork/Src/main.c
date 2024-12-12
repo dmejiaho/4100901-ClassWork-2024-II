@@ -47,6 +47,8 @@ int main(void)
             break;
         case 2: // led toggle
             gpio_toggle_led();
+            gpio_toggle_led2();
+            gpio_toggle_led3();
             systick_reset(); // Reset counter
             state = 0;
             break;
